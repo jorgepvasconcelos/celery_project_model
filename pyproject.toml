@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "celery-project-model"
+version = "0.1.0"
+description = ""
+authors = [""]
+readme = "README.md"
+packages = [{include = "celery_project_model"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+celery = "*"
+redis = "*"
+flower = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
